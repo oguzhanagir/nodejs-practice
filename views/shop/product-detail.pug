@@ -1,0 +1,13 @@
+extends ../layouts/main-layout.pug
+
+block content
+        .row 
+            .col-md-4 
+                h1 resim 
+            .col-md-8 
+                p #{product.description}
+                hr
+                p price: #{product.price}
+
+                button(type="submit").btn.btn-primary.btn-lg Add to Cart 
+                
